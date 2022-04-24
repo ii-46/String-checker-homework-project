@@ -7,4 +7,4 @@ check for lowe csae
 check for decimal
 check for space
 
-I use string becuase some of problem upthere requests not one single character like decimal (point number) that char type cann't hold multiple character.
+I use string becuase some of problem upthere requests not just one single character like decimal (point number) that char type cann't hold multiple character.
