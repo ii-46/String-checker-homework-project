@@ -1,7 +1,7 @@
 package Inthava;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-public class StringChecke {
+public class StringChecker {
     public static boolean isOperator(String operator) {
         if ( operator.length() > 1 || operator.length() < 1) {
             return false;
