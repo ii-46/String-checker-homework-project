@@ -1,7 +1,7 @@
 package Inthava;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-public class Character {
+public class StringChecke {
     public static boolean isOperator(String operator) {
         if ( operator.length() > 1 || operator.length() < 1) {
             return false;
@@ -43,7 +43,6 @@ public class Character {
     }
 
     public static boolean isDecimal(String num) {
-        // if (number.indexOf( '.' ) != -1 || number.indexOf( ',' ) != -1) {
             if ( num.contains( "." ) || num.contains( "," ) ) {
                 return true;
             } else {
